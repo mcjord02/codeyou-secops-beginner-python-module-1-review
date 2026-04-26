@@ -17,6 +17,6 @@ for line in lines:
         failed_logins += 1
     else:
         successful_logins += 1
-
+print(f"Total processed logins: {successful_logins + failed_logins}")
 print(f"Total successful logins: {successful_logins}")
 print(f"Total failed logins: {failed_logins}")
